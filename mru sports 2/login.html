@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <form>
+        <div class="container"> 
+            <h1>Login</h1>
+            <div class="input-box"> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">  
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <i class='bx bxs-lock-alt'></i>
+            </div> 
+            <div class="Remember-forgot">
+            <label ><input type="checkbox"> Remember me 
+            </label>
+            <a href="#">forgot password
+            </a>
+            </div>
+            <button type="submit" class="btn" ><a class="a" href="C:\Users\naren\Downloads\search.html">Login</a></button>
+            <div class="register-link">
+                <p>Don't have an account?<a href="#">register</a></p>
+            </div>
+        </div> 
+    </form>   
+</body>   
+</html>
+<style>
+    @import url("C:\Users\nazee\Downloads\Poppins.zip");
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins",sans-serif;
+    }
+    Body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url('https://e1.pxfuel.com/desktop-wallpaper/520/585/desktop-wallpaper-fancy-sports-backgrounds-color-physical-education.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    .container{
+        width: 420px;
+        background: transparent;
+        color: #f30909;
+        border-radius: 10px;
+        padding: 30px 40px;
+    }
+    .container  h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .container .input-box{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        margin: 36px 0;
+    }
+    .input-box input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid red;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #ea1919;
+        padding: 20px 45px 20px 20px;
+    }
+    .input-box input::placeholder{
+        color: #f30909;
+    }
+    .input-box i{
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        transform: translateY(-50%);
+        font-size: 20px;
+    
+        }
+        .container .Remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px;
+        }
+        .Remember-forgot label input {
+            accent-color: #f30909;
+            margin-right: 3px;
+        }
+        .Remember-forgot a {
+            color: #f30909;
+            text-decoration: none;
+        }
+        .Remember-forgot a:hover {
+            text-decoration: underline;
+        }
+        .container .btn {
+            width: 100%;
+            height: 45px;
+            background: #775c9c;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .container .register-link{
+        font-size: 14.4px;
+        text-align: center;
+        margin-top: 20px ;
+        }
+        .register-link p a {
+        color: #f30909;
+        text-decoration: none;
+        font-weight: 600;
+        
+        }
+        .register-link p a:hover{
+        text-decoration: underline;
+        }
+        .a{
+            text-decoration: none ;
+            color: #fff;
+        }
+        
+</style>
